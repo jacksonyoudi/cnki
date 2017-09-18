@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'cnki.spiders'
 #USER_AGENT = 'cnki (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 
 REDIS = {
@@ -29,6 +29,22 @@ REDIS = {
 }
 
 
+
+
+KEYWORDS = ['iPad']
+MAX_PAGE = 100
+
+DOWNLOADER_MIDDLEWARES = {
+    'cnki.middlewares.SeleniumMiddleware': 543,
+}
+
+
+ITEM_PIPELINES = {
+    'cnki.pipelines.MongoPipeline': 300,
+}
+
+MONGO_URI = 'localhost'
+MONGO_DB = 'taobao'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
