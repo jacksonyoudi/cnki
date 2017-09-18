@@ -1,3 +1,4 @@
+appnope==0.1.0
 asn1crypto==0.22.0
 attrs==17.2.0
 Automat==0.6.0
@@ -11,6 +12,7 @@ cryptography==2.0.3
 cssselect==1.0.1
 decorator==4.1.2
 docopt==0.6.2
+fake-useragent==0.1.7
 hyperlink==17.3.0
 idna==2.6
 incremental==17.5.0
@@ -28,17 +30,20 @@ pyasn1-modules==0.0.11
 pycparser==2.18
 PyDispatcher==2.0.5
 Pygments==2.2.0
+pymongo==3.5.1
 pyOpenSSL==17.2.0
 queuelib==1.4.2
 redis==2.10.5
 requests==2.18.4
 Scrapy==1.4.0
 scrapy-redis==0.6.8
+selenium==3.5.0
 service-identity==17.0.0
 simplegeneric==0.8.1
 six==1.10.0
 traitlets==4.3.2
 Twisted==17.5.0
+ua-parser==0.7.3
 urllib3==1.22
 w3lib==1.18.0
 wcwidth==0.1.7
